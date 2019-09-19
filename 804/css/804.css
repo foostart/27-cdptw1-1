@@ -1,22 +1,21 @@
-.hero {
+.type-804 {
   padding: 6.25rem 0px !important;
   margin: 0px !important;
 }
-.cardbox {
+.type-804 .cardbox {
   border-radius: 3px;
   margin-bottom: 20px;
   padding: 0px !important;
 }
-.cardbox .cardbox-heading {
-  padding: 16px;
+.type-804 .cardbox .cardbox-heading {
+  padding: 16px !important;
   margin: 0;
 }
-.cardbox .btn-flat.btn-flat-icon {
+.type-804 .cardbox .cardbox-heading .btn-flat.btn-flat-icon {
   border-radius: 50%;
   font-size: 24px;
   height: 32px;
   width: 32px;
-  padding: 0;
   overflow: hidden;
   color: #fff !important;
   background: #b5b6b6;
@@ -26,14 +25,14 @@
   align-items: center;
   text-align: center;
 }
-.cardbox .float-right .dropdown-menu {
+.type-804 .cardbox .cardbox-heading .dropdown-menu {
   position: relative;
   left: 13px !important;
 }
-.cardbox .float-right a:hover {
+.type-804 .cardbox .cardbox-heading .dropdown-menu a:hover {
   background: #f4f4f4 !important;
 }
-.cardbox .float-right a.dropdown-item {
+.type-804 .cardbox .cardbox-heading .dropdown-menu a.dropdown-item {
   display: block;
   width: 100%;
   padding: 4px 0px 4px 10px;
@@ -47,65 +46,54 @@
   background: 0 0;
   border: 0;
 }
-.media {
+.type-804 .cardbox .cardbox-heading .media {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: start;
   align-items: flex-start;
 }
-.d-flex {
+.type-804 .cardbox .cardbox-heading .media .d-flex {
   display: -ms-flexbox !important;
   display: flex !important;
-}
-.media .mr-3 {
   margin-right: 1rem !important;
 }
-.media img {
+.type-804 .cardbox .cardbox-heading .media .d-flex img {
   width: 48px !important;
   height: 48px !important;
   padding: 2px;
   border: 2px solid #f4f4f4;
 }
-.media-body {
+.type-804 .cardbox .cardbox-heading .media .media-body {
   -ms-flex: 1;
   flex: 1;
   padding: .4rem !important;
 }
-.media-body p {
+.type-804 .cardbox .cardbox-heading .media .media-body p {
   font-family: 'Rokkitt', serif;
   font-weight: 500 !important;
   font-size: 14px;
   color: #88898a;
 }
-.media-body small span {
+.type-804 .cardbox .cardbox-heading .media .media-body small span {
   font-family: 'Rokkitt', serif;
   font-size: 12px;
   color: #aaa;
   margin-right: 10px;
 }
-.cardbox .cardbox-item {
+.type-804 .cardbox .cardbox-item {
   position: relative;
   display: block;
 }
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.fw {
-  width: 100% !important;
-  height: auto;
-}
-.cardbox-base {
+.type-804 .cardbox .cardbox-base {
   border-bottom: 2px solid #f4f4f4;
 }
-.cardbox-base ul {
+.type-804 .cardbox .cardbox-base ul {
   margin: 10px 0px 10px 15px !important;
   padding: 10px !important;
   font-size: 0px;
   display: inline-block;
 }
-.cardbox-base li {
+.type-804 .cardbox .cardbox-base ul li {
   list-style: none;
   margin: 0px 0px 0px -8px !important;
   padding: 0px 0px 0px 0px !important;
@@ -115,26 +103,23 @@
   margin: 0px !important;
   padding: 0px !important;
 }
-.cardbox-base li a i {
+.cardbox-base li a {
   position: relative;
+  color: #8d8d8d;
+  font-family: 'Rokkitt', serif;
+}
+.cardbox-base li a i {
   top: 4px;
   font-size: 16px;
-  color: #8d8d8d;
   margin-right: 15px;
 }
 .cardbox-base li a span {
-  font-family: 'Rokkitt', serif;
   font-size: 14px;
-  color: #8d8d8d;
   margin-left: 20px;
-  position: relative;
   top: 5px;
 }
 .cardbox-base li a em {
-  font-family: 'Rokkitt', serif;
   font-size: 14px;
-  color: #8d8d8d;
-  position: relative;
   top: 3px;
 }
 .cardbox-base li a img {
@@ -150,13 +135,14 @@
   display: inline-block;
 }
 .cardbox-comments .comment-avatar img {
-  margin-top: 1px;
+  margin-top: 2px;
   margin-right: 10px;
   position: relative;
   display: inline-block;
   text-align: center;
   width: 40px;
   height: 40px;
+  margin-bottom: -6px;
 }
 .cardbox-comments .comment-body {
   overflow: auto;
@@ -173,15 +159,15 @@
 .search input[type="text"] {
   background-color: #fff;
   line-height: 10px;
-  padding: 15px 60px 20px 10px;
+  padding: 15px 30px 15px 10px;
   border: none;
   border-radius: 4px;
-  width: 350px;
   font-family: 'Rokkitt', serif;
   font-size: 14px;
   color: #8d8d8d;
   height: inherit;
   font-weight: 700;
+  width: 100%;
 }
 .search button {
   position: absolute;
@@ -190,7 +176,7 @@
   border: none;
   background-color: transparent;
   color: #bbbbbb;
-  padding: 15px 25px;
+  padding: 9px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -203,13 +189,13 @@
   line-height: 30px;
   display: block;
 }
-.author a {
+.author {
   font-family: 'Rokkitt', serif;
   font-size: 16px;
+}
+.author a {
   color: #00C4CF;
 }
 .author p {
-  font-family: 'Rokkitt', serif;
-  font-size: 16px;
   color: #8d8d8d;
 }
