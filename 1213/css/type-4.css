@@ -163,13 +163,10 @@
   max-width: 100%;
   padding: 25px;
 }
-<<<<<<< HEAD
 .type-4 .content .left_col .products img:hover {
   transform: scale(1.1);
   transition: transform .6s ease;
 }
-=======
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
 .type-4 .content .left_col .products .price {
   color: #4acea9;
 }
@@ -239,11 +236,7 @@
 .type-4 .content .right_col .list-cate ul li {
   padding: 5px 0;
 }
-<<<<<<< HEAD
 .type-4 .content .right_col .list-cate ul li span {
-=======
-.type-4 .content .right_col .list-cate ul li span#dot {
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
   color: #4acea9;
 }
 .type-4 .content .right_col h2 {

@@ -1,15 +1,8 @@
 <?php
-<<<<<<< HEAD
 // include '../config.php';
  
         $url_host = 'http://'.$_SERVER['HTTP_HOST'];
         $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-=======
- include '../config.php';
- 
-        $url_host = 'http://'.$_SERVER['HTTP_HOST'];
-        $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), $sala);
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
         $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
         
         preg_match_all($pattern_uri, __DIR__, $matches);
@@ -26,11 +19,7 @@ $less->compileFile('less/1215.less', 'css/1215.css');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
    <title>Module - 1215</title>
-=======
-   <title>type-1215</title>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,11 +30,7 @@ $less->compileFile('less/1215.less', 'css/1215.css');
    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
    
-<<<<<<< HEAD
   
-=======
-   <script src="<?php echo $url_path ?>/js/1215.js"></script>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
 
 
 </head>

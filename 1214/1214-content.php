@@ -37,16 +37,9 @@
                      <li><a class="codrops-icon codrops-icon-prev" href="#"><span>Previous </span></a></li>
                   </ul>
                    <header>
-<<<<<<< HEAD
             <h1>Google assistant <span>A sidebar menu as seen on the <a href="#">Google Nexus 7</a> page</span></h1>   
          </header> 
                      </div><!-- /container -->
             
-=======
-            <h1>Google assistant <span>A sidebar menu as seen on the <a href="http://www.google.com/nexus/index.html">Google Nexus 7</a> page</span></h1>   
-         </header> 
-                     </div><!-- /container -->
-               </div>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
     
 </div>   

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
@@ -7,39 +6,6 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-=======
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!-- Meta, title, CSS, favicons, etc. -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Module - Content e-commerce</title>
-
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
-
-        <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/type-4.less', 'css/type-4.css');
-        ?>
-        <link rel="stylesheet" href="css/type-4.css">
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/jquery-ui.js" type="text/javascript"></script>
-        <script src="js/rangeslider.js" type="text/javascript"></script>
-        <script src="js/hover-menu.js" type="text/javascript"></script>
-    </head>
-
-    <body>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
         <div class="type-4">
             <header>
     <div class="container">
@@ -114,15 +80,9 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="products">
-<<<<<<< HEAD
                     <img src="images/Mobile-phone.jpg" alt="iphone"/>
                     <h3 class="price">$49</h3>
                     <span class="name"> Huawei P30 Lite</span>
-=======
-                    <img src="images/Mobile-phone.jpg" alt=""/>
-                    <h3 class="price">$49</h3>
-                    <span class="name">Screen Protector 3D</span>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
                     <div class="clearfix"></div>
                     <div class="add-to-cart">
                         <a href="#">ADD TO CART</a>
@@ -131,11 +91,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="products">
-<<<<<<< HEAD
                     <img src="images/Mobile-phone.jpg" alt="iphone"/>
-=======
-                    <img src="images/Mobile-phone.jpg" alt=""/>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
                     <h3 class="price">$49</h3>
                     <span class="name">Screen Protector 3D</span>
                     <div class="clearfix"></div>
@@ -146,11 +102,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="products">
-<<<<<<< HEAD
                     <img src="images/Mobile-phone.jpg" alt="iphone"/>
-=======
-                    <img src="images/Mobile-phone.jpg" alt=""/>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
                     <h3 class="price">$49</h3>
                     <span class="name">Screen Protector 3D</span>
                     <div class="clearfix"></div>
@@ -161,11 +113,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="products">
-<<<<<<< HEAD
                     <img src="images/Mobile-phone.jpg" alt="iphone"/>
-=======
-                    <img src="images/Mobile-phone.jpg" alt=""/>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
                     <h3 class="price">$49</h3>
                     <span class="name">Screen Protector 3D</span>
                     <div class="clearfix"></div>
@@ -176,11 +124,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="products">
-<<<<<<< HEAD
                     <img src="images/Mobile-phone.jpg" alt="iphone"/>
-=======
-                    <img src="images/Mobile-phone.jpg" alt=""/>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
                     <h3 class="price">$49</h3>
                     <span class="name">Screen Protector 3D</span>
                     <div class="clearfix"></div>
@@ -191,11 +135,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="products">
-<<<<<<< HEAD
                     <img src="images/Mobile-phone.jpg" alt="iphone"/>
-=======
-                    <img src="images/Mobile-phone.jpg" alt=""/>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
                     <h3 class="price">$49</h3>
                     <span class="name">Screen Protector 3D</span>
                     <div class="clearfix"></div>
@@ -226,19 +166,11 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="list-cate">
 
             <ul>
-<<<<<<< HEAD
                 <li><span >&#9679;</span> Protective glass (69)</li>
                 <li><span >&#9679;</span> Mobile phone (258)</li>
                 <li><span >&#9679;</span> Notebook & PC (32)</li>
                 <li><span >&#9679;</span> Tabletfatback (25)</li>
                 <li><span >&#9679;</span> Cover & Bamper (956)</li>
-=======
-                <li><span id="dot">&#9679;</span> Protective glass (69)</li>
-                <li><span id="dot">&#9679;</span> Mobile phone (258)</li>
-                <li><span id="dot">&#9679;</span> Notebook & PC (32)</li>
-                <li><span id="dot">&#9679;</span> Tabletfatback (25)</li>
-                <li><span id="dot">&#9679;</span> Cover & Bamper (956)</li>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
             </ul>
         </div>
         <h2>Filter by price</h2>
@@ -344,8 +276,3 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
 </footer>
         </div>        
-<<<<<<< HEAD
-=======
-    </body>
-</html>
->>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
