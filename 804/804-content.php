@@ -12,23 +12,15 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-804">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
-
-
-    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet"> 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+    
     <!-- ==============================================
     Hero
     =============================================== -->
-    <section class="hero">
+    
         <div class="container">
             <div class="row">	
 
-                <div class="col-lg-6 offset-lg-3">
+                <div class="col-md-6 offset-md-3">
 
                     <div class="cardbox shadow-lg bg-white">
 
@@ -38,7 +30,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <button class="btn btn-flat btn-flat-icon" type="button" data-toggle="dropdown" aria-expanded="false">
                                     <em class="fa fa-ellipsis-h"></em>
                                 </button>
-                                <div class="dropdown-menu dropdown-scale dropdown-menu-right" role="menu" style="position: absolute; transform: translate3d(-136px, 28px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <div class="dropdown-menu dropdown-scale dropdown-menu-right" role="menu">
                                     <a class="dropdown-item" href="#">Hide post</a>
                                     <a class="dropdown-item" href="#">Stop following</a>
                                     <a class="dropdown-item" href="#">Report</a>
@@ -46,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div><!--/ dropdown -->
                             <div class="media m-0">
                                 <div class="d-flex mr-3">
-                                    <a href=""><img class="img-fluid rounded-circle" src="http://www.themashabrand.com/templates/bootsnipp/post/assets/img/users/4.jpg" alt="User"></a>
+                                    <a href=""><img class="img-fluid rounded-circle" src="images/4.jpg" alt="User"></a>
                                 </div>
                                 <div class="media-body">
                                     <p class="m-0">Benjamin Robinson</p>
@@ -57,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div><!--/ cardbox-heading -->
 
                         <div class="cardbox-item">
-                            <img class="img-fluid" src="http://www.themashabrand.com/templates/bootsnipp/post/assets/img/1.jpg" alt="Image">
+                            <img class="img-fluid" src="images/7.jpg" alt="Image">
                         </div><!--/ cardbox-item -->
                         <div class="cardbox-base">
                             <ul class="float-right">
@@ -88,14 +80,14 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div><!--/ cardbox -->
 
                 </div><!--/ col-lg-6 -->	
-                <div class="col-lg-3">
+                <div class="col-md-3">
                     <div class="shadow-lg p-4 mb-2 bg-white author">
-                        <a href="http://www.themashabrand.com/">Get more from themashabrand.com</a>
+                        <a href="#">Get more from themashabrand.com</a>
                         <p>Bootstrap 4.1.0</p>
                     </div>
                 </div><!--/ col-lg-3 -->
 
             </div><!--/ row -->
         </div><!--/ container -->
-    </section>
+
 </div>
