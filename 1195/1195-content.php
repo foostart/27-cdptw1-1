@@ -1,14 +1,24 @@
 <?php
+<<<<<<< HEAD
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
+=======
+    $url_host = 'http://'.$_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';   
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
+>>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
 ?>
 <div class="type-1195">
     <header>
         <nav class="navbar navbar-inverse ">
+<<<<<<< HEAD
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -49,15 +59,75 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
         </nav>
+=======
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a href="#">
+                    <img src="images/logo.PNG" alt=""/>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Services 1</a></li>
+                            <li><a href="#">Services 2</a></li>
+                            <li><a href="#">Services 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pages<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Pages 1</a></li>
+                            <li><a href="#">Pages 2</a></li>
+                            <li><a href="#">Pages 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Blog 1</a></li>
+                            <li><a href="#">Blog 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Shop</a></li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+>>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
     </header>
     <div class="banner">
         <div class="title">
             <h1>Shop</h1>
             <div class="curpage">
                 <ul >
+<<<<<<< HEAD
                     <li>HOME</li>
                     <li id="sympol">&#9679;</li>
                     <li ><a href="#" style="color: #ffff">SHOP</a></li>
+=======
+                    <li style="color: #4acea9">Home</li>
+                    <li id="sympol">&#9679;</li>
+                    <li ><a href="#" style="color: #4acea9">Shop</a></li>
+>>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
                 </ul>
             </div>
         </div>w
@@ -160,11 +230,19 @@ $url_path = str_replace('\\', '/', $url_path);
                         <h2>Category</h2>
                         <div class="list-cate">
                             <ul>
+<<<<<<< HEAD
                                 <li><span >&#9679;</span> Protective glass (69)</li>
                                 <li><span >&#9679;</span> Mobile phone (258)</li>
                                 <li><span>&#9679;</span> Notebook & PC (32)</li>
                                 <li><span >&#9679;</span> Tabletfatback (25)</li>
                                 <li><span>&#9679;</span> Cover & Bamper (956)</li>
+=======
+                                <li><span id="dot">&#9679;</span> Protective glass (69)</li>
+                                <li><span id="dot">&#9679;</span> Mobile phone (258)</li>
+                                <li><span id="dot">&#9679;</span> Notebook & PC (32)</li>
+                                <li><span id="dot">&#9679;</span> Tabletfatback (25)</li>
+                                <li><span id="dot">&#9679;</span> Cover & Bamper (956)</li>
+>>>>>>> 88c8aaf41b2e372abf8e51db23f9843ed6220db0
                             </ul>
                         </div>
                         <h2>Filter by price</h2>
