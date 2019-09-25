@@ -82,6 +82,7 @@
             }
         }
         .cardbox-item {
+            text-align: center;
             position: relative;
             display: block;
         }
@@ -149,7 +150,7 @@
 /* Cardbox Comments
 ---------------------------------- */
 .cardbox-comments{
-    padding: 10px 40px 20px 40px !important;
+    padding: 20px 40px 20px 40px !important;
     font-size: 0px;	
     text-align: center;
     display: inline-block;
@@ -188,7 +189,7 @@
     color: #8d8d8d;
     height: inherit;
     font-weight: 700;
-    width: 100%;
+   
 }
 .search button {
     position: absolute;
@@ -225,4 +226,37 @@
     p{
         color: #8d8d8d;
     }
+}
+
+@media only screen and (max-width: 4000px) {
+    .search input[type="text"] {
+        width: 537px;
+    }
+}
+@media only screen and (max-width: 1147px) {
+    .search input[type="text"] {
+
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .search input[type="text"] {
+
+        width: 235px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .search input[type="text"] {
+        width: 140px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .type-804 {
+       width: 320px;
+    }
+    .search input[type="text"] {
+        width: 120px;
+        
+    }
+    
 }

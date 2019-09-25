@@ -12,15 +12,10 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-804">
-    
-    <!-- ==============================================
-    Hero
-    =============================================== -->
-    
         <div class="container">
             <div class="row">	
 
-                <div class="col-md-6 offset-md-3">
+                <div class="col-xs-6 col-md-9 col-sm-9 col-lg-8">
 
                     <div class="cardbox shadow-lg bg-white">
 
@@ -80,14 +75,12 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div><!--/ cardbox -->
 
                 </div><!--/ col-lg-6 -->	
-                <div class="col-md-3">
+               <div class="col-xs-6 col-md-3 col-sm-3 col-lg-4">
                     <div class="shadow-lg p-4 mb-2 bg-white author">
                         <a href="#">Get more from themashabrand.com</a>
                         <p>Bootstrap 4.1.0</p>
                     </div>
                 </div><!--/ col-lg-3 -->
-
             </div><!--/ row -->
         </div><!--/ container -->
-
 </div>
