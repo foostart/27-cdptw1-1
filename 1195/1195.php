@@ -25,17 +25,7 @@
         <link href="./css/bootstrap.min.css" rel="stylesheet"  />
         <link href="./css/font-awesome.min.css" rel="stylesheet"/>
         <link href="./css/1195.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" type="text/css" href="./css/jquery-ui.min.css">
-  
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-   
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <script src="./js/jquery-2.1.4.min.js" ></script>
-        <script src="./js/rangeslider.js"></script>
-        <script src="./js/hover-menu.js"></script>
-       <!--  <script type="text/javascript" src="<?php echo $url_path ?>/js/jquery-ui.js"></script> -->
+         
     </head>
     <body>
         <?php  $dir_block.include'1195-content.php'; ?>       
