@@ -23,7 +23,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!-- START dropdown-->
                             <div class="dropdown float-right">
                                 <button class="btn btn-flat btn-flat-icon" type="button" data-toggle="dropdown" aria-expanded="false">
-                                    <em class="fa fa-ellipsis-h"></em>
+                                    <em class="fa fa-ellipsis-h" ></em>
                                 </button>
                                 <div class="dropdown-menu dropdown-scale dropdown-menu-right" role="menu">
                                     <a class="dropdown-item" href="#">Hide post</a>
@@ -68,7 +68,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </span>
                             <div class="search">
                                 <input placeholder="Write a comment" type="text">
-                                <button><i class="fa fa-camera"></i></button>
+                                <button><i class="fa fa-camera" aria-hidden="true"></i></button>
                             </div><!--/. Search -->
                         </div><!--/ cardbox-like -->			  
 
