@@ -12,37 +12,26 @@
         require_once($dir_block.'/libs/lessc.inc.php');
     }
     
-    $less = new lessc;
-    $less->compileFile('less/type-4.less', 'css/4.css');
+ 
     
 ?><!DOCTYPE html>
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!-- Meta, title, CSS, favicons, etc. -->
-  
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Module - 1213</title>
-
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/type-1213.css">
 
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-4.less', 'css/type-4.css');
+        $less->compileFile('less/type-1213.less', 'css/type-1213.css');
         ?>
-        <link rel="stylesheet" href="css/type-4.css">
-        <script src="js/jquery-2.1.4.min.js" ></script>
-        <script src="js/bootstrap.min.js" ></script>
-        <script src="js/jquery-ui.js" ></script>
-        <script src="js/rangeslider.js" ></script>
-        <script src="js/hover-menu.js"></script>
     </head>
 
     <body >
