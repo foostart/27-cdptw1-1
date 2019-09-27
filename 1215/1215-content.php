@@ -13,6 +13,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container bg">
         <div class="row">
             <!--SWIPER SLIDE-->
+       
             <div id="swiper" class="swiper-container swiper-container-horizontal swiper-container-fade">
                 <div class="swiper-wrapper">
                     <!--SLIDE-CAPTION-->
