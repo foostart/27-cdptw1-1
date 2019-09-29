@@ -72,16 +72,6 @@
   border-right: 1px solid #c6d0da;
   text-align: center;
 }
-.gn-menu-main li.gn-trigger {
-  position: relative;
-  width: 60px;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 .gn-menu-main > li:last-child {
   float: right;
   border-right: none;
