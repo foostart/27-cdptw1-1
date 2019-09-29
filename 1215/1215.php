@@ -23,11 +23,11 @@ $less->compileFile('less/1215.less', 'css/1215.css');
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
+   <link href="<?php echo $url_path ?>/css/bootstrap-3.3.6.min.css" rel="stylesheet">
    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-   <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+   <link href="<?php echo $url_path ?>/css/swiper-3.4.2.min.css" rel="stylesheet" type="text/css"/>
    <link href="<?php echo $url_path ?>/css/1215.css" rel="stylesheet" type="text/css" />
-   <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+   <script src="<?php echo $url_path ?>/js/swiper-4.5.0.min.js"></script>
    
   
 

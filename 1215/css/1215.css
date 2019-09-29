@@ -54,9 +54,6 @@
   bottom: 55%;
   display: block;
 }
-.type-1215 .bg #swiper a:hover .swiper-btn i {
-  color: #fff;
-}
 .type-1215 .bg #swiper #swiper_btn_down {
   z-index: 3;
   top: 50%;
