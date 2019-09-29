@@ -22,10 +22,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Module - 1195</title>
-        <link href="./css/bootstrap.min.css" rel="stylesheet"  />
-        <link href="./css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="./css/1195.css" rel="stylesheet" type="text/css" />
-         
+        <link href="<?php echo $url_path ?>/css/bootstrap-3.4.1.min.css" rel="stylesheet"  />
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="<?php echo $url_path ?>/css/1195.css" rel="stylesheet" type="text/css" />
+       
+  
+        <script src="<?php echo $url_path ?>/js/jquery-3.3.1.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap-3.4.1.min.js"></script>
+
     </head>
     <body>
         <?php  $dir_block.include'1195-content.php'; ?>       

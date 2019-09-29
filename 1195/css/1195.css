@@ -376,11 +376,3 @@
     padding: 15px 13px 6px 5px;
   }
 }
-@media (min-width: 980px) {
-  .toggle-btn {
-    display: none;
-  }
-  .nav_menu .menu {
-    display: block;
-  }
-}
