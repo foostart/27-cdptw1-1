@@ -15,17 +15,17 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <div class="row">	
 
-                <div class="col-xs-6 col-md-9 col-sm-9 col-lg-8">
+                <div class="col-md-9 col-sm-9 col-lg-8">
 
                     <div class="cardbox shadow-lg bg-white">
 
                         <div class="cardbox-heading">
                             <!-- START dropdown-->
                             <div class="dropdown float-right">
-                                <button class="btn btn-flat btn-flat-icon" type="button" data-toggle="dropdown" aria-expanded="false">
+                                <button class="btn btn-flat-icon" type="button" data-toggle="dropdown" aria-expanded="false">
                                     <em class="fa fa-ellipsis-h" ></em>
                                 </button>
-                                <div class="dropdown-menu dropdown-scale dropdown-menu-right" role="menu">
+                                <div class="dropdown-menu dropdown-menu-right" role="menu">
                                     <a class="dropdown-item" href="#">Hide post</a>
                                     <a class="dropdown-item" href="#">Stop following</a>
                                     <a class="dropdown-item" href="#">Report</a>
@@ -37,8 +37,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                                 <div class="media-body">
                                     <p class="m-0">Benjamin Robinson</p>
-                                    <small><span><i class="icon ion-md-pin"></i> Nairobi, Kenya</span></small>
-                                    <small><span><i class="icon ion-md-time"></i> 10 hours ago</span></small>
+                                    <small><span> Nairobi, Kenya</span></small>
+                                    <small><span> 10 hours ago</span></small>
                                 </div>
                             </div><!--/ media -->
                         </div><!--/ cardbox-heading -->
@@ -75,7 +75,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div><!--/ cardbox -->
 
                 </div><!--/ col-lg-6 -->	
-               <div class="col-xs-6 col-md-3 col-sm-3 col-lg-4">
+               <div class="col-md-3 col-sm-3 col-lg-4">
                     <div class="shadow-lg p-4 mb-2 bg-white author">
                         <a href="#">Get more from themashabrand.com</a>
                         <p>Bootstrap 4.1.0</p>

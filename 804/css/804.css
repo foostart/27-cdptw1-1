@@ -11,7 +11,7 @@
   padding: 16px !important;
   margin: 0;
 }
-.type-804 .cardbox .cardbox-heading .btn-flat.btn-flat-icon {
+.type-804 .cardbox .cardbox-heading .btn-flat-icon {
   border-radius: 50%;
   font-size: 24px;
   height: 32px;
@@ -141,9 +141,6 @@
   width: 40px;
   height: 40px;
   margin-bottom: -6px;
-}
-.type-804 .cardbox-comments .comment-body {
-  overflow: auto;
 }
 .type-804 .cardbox-comments .search {
   position: relative;
