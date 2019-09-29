@@ -21,10 +21,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Module - 1213</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/type-1213.css">
-
+        <link href="<?php echo $url_path ?>/css/bootstrap-3.4.1.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/type-1213.css">
+        <script src="<?php echo $url_path ?>/js/jquery-3.3.1.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap-3.4.1.min.js"></script>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
