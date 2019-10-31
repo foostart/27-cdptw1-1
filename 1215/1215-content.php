@@ -64,15 +64,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <!--/SWIPER SLIDE-->
-            <script>
-                var swiper = new Swiper('.swiper-container', {
-                    navigation: {
-                        nextEl: '#swiper_btn_next',
-                        prevEl: '#swiper_btn_prev',
-                    },
-
-                });
-            </script>
+            
         </div>
     </div>
 </div>

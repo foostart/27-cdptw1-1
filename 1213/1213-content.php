@@ -7,54 +7,62 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1213">
-    <header>
-        <div class="container">
-            <a href="#">
-                <img src="images/logo.PNG" alt=""/>
+ <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Đây là menu mobile</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+             <a href="#">
+                <img src="./images/logo.PNG" alt=""/>
             </a>
-            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
-            <nav class="nav_menu">
-                <ul class="menu"  id="top_nav">
-                    <li>
-                        <a href="#" class="parent-menu">Home</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="parent-menu dropdown-toggle" data-toggle="dropdown">Services</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Services 1</a></li>
-                            <li><a href="#">Services 2</a></li>
-                            <li><a href="#">Services 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="parent-menu dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Pages 1</a></li>
-                            <li><a href="#">Pages 2</a></li>
-                            <li><a href="#">Pages 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="parent-menu dropdown-toggle" data-toggle="dropdown">Blog</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Blog 1</a></li>
-                            <li><a href="#">Blog 2</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#" class="parent-menu">Shop</a>
-                    </li>
-                    <li><a href="#" class="parent-menu">Contact</a></li>
-                </ul>
-                <ul class="social-icons">
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="#">Home</a></li>
+               
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Services 1</a></li>
+                        <li><a href="#">Services 2</a></li>
+                        <li><a href="#">Services 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Pages 1</a></li>
+                        <li><a href="#">Pages 2</a></li>
+                        <li><a href="#">Pages 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Blog 1</a></li>
+                        <li><a href="#">Blog 2</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+                 
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-envelope"></i></a></li>
                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                </ul>
-            </nav>
+                
+                         
+            </ul>
+            
         </div>
-    </header>
+    </div>
+</nav>
     <div class="banner">
         <div class="title">
             <h1>Shop</h1>
@@ -175,8 +183,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                         <h2>Filter by price</h2>
                         <div class="filter-price">
-                            <div id="slider-range"></div>
-                            <label for="amount">Price: </label> <input type="text" id="amount"/>
+                           
+                            <label for="amount">Price: </label> 
+                              <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
                             <div class="btn-filter">
                                 <a href="#">Filter</a>
                             </div>

@@ -27,6 +27,7 @@ $less->compileFile('less/1215.less', 'css/1215.css');
    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
    <link href="<?php echo $url_path ?>/css/swiper-3.4.2.min.css" rel="stylesheet" type="text/css"/>
    <link href="<?php echo $url_path ?>/css/1215.css" rel="stylesheet" type="text/css" />
+  
    <script src="<?php echo $url_path ?>/js/swiper-4.5.0.min.js"></script>
    
   
@@ -35,7 +36,7 @@ $less->compileFile('less/1215.less', 'css/1215.css');
 </head>
 <body>
     <?php include $dir_block.'/1215-content.php'; ?>
-  
+   <script src="<?php echo $url_path ?>/js/script.js"></script>
 </body>
 
 </html>

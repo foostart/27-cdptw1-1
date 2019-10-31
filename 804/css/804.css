@@ -194,30 +194,30 @@
   color: #8d8d8d;
 }
 @media only screen and (max-width: 4000px) {
-  .search input[type="text"] {
+  .type-804 .search input[type="text"] {
     width: 537px;
   }
 }
 @media only screen and (max-width: 1147px) {
-  .search input[type="text"] {
+  .type-804 .search input[type="text"] {
     width: 350px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .search input[type="text"] {
+  .type-804 .search input[type="text"] {
     width: 235px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .search input[type="text"] {
+  .type-804 .search input[type="text"] {
     width: 140px;
   }
 }
 @media only screen and (max-width: 320px) {
-  .type-804 {
+  .type-804 .type-804 {
     width: 320px;
   }
-  .search input[type="text"] {
+  .type-804 .search input[type="text"] {
     width: 120px;
   }
 }

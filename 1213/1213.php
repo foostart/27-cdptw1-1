@@ -26,6 +26,7 @@
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/type-1213.css">
         <script src="<?php echo $url_path ?>/js/jquery-3.3.1.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap-3.4.1.min.js"></script>
+       
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -37,6 +38,7 @@
 
     <body >
         <?php include '../1213/1213-content.php'; ?>
+        
     </body>        
 
 </html>

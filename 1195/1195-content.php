@@ -21,32 +21,43 @@ $url_path = str_replace('\\', '/', $url_path);
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-
-                    <ul class="nav navbar-nav">
-                        <li >
-                            <a href="#"> HOME</a>
-                        </li>
-                        <li >
-                            <a  href="#">SERVICES </a>         
-                        </li>
-                        <li >
-                            <a href="#">PAGES</a>        
-                        </li>
-                        <li >
-                            <a href="#">BLOG</a>
-                        </li>
-                        <li><a href="#">SHOP</a></li>
-                        <li>
-                            <a href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Services 1</a></li>
+                            <li><a href="#">Services 2</a></li>
+                            <li><a href="#">Services 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pages<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Pages 1</a></li>
+                            <li><a href="#">Pages 2</a></li>
+                            <li><a href="#">Pages 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Blog 1</a></li>
+                            <li><a href="#">Blog 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Shop</a></li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
             </div>
         </nav>
     </header>
@@ -210,7 +221,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row">
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-logo-widget">
-                            <img src="images/logo_footer.PNG" alt=""/>
+                            <img src="#" alt=""/>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="device">
                                 <div class="col-md-6">

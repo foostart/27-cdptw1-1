@@ -26,13 +26,7 @@ $less->compileFile('less/804.less', 'css/804.css');
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/> 
 
 
-        <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/804.less', 'css/804.css');
-        ?>
+      
     </head>
     <body >
         <?php include '../804/804-content.php'; ?>
